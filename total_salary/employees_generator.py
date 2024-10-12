@@ -12,9 +12,7 @@ def employees_generator(amount):
             "salary": fake.random_number(2)
         }
         users.append(mock)
-    
-    # print(users)
-    
+
     # Відкриваємо файл для запису і використовуємо метод write, а не writelines
     with open("users.json", "w") as file:
         file.write(json.dumps(users, indent=4))  # Записуємо дані у файл у форматі JSON з відступами

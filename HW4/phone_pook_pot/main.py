@@ -6,7 +6,7 @@ def main():
 
     while True:
         command_input = input("Enter a command: ")  # Отримуємо команду від користувача  
-        command, args = parse_input(command_input)  # Використання функції parse_input()
+        command, args = parse_input(command_input)  # Використання функції parse_input() типу деструкткризація
         
         if command in ["close", "exit"]:
             print("Good bye!")

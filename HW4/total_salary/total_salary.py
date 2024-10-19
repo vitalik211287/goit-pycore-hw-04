@@ -1,5 +1,5 @@
 from pathlib import Path
-import sys  
+import sys, json  
 from faker import Faker
 from employees_generator import employees_generator
 from read_json_file import read_json_file
